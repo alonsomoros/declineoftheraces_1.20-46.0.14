@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "dotr:baloncestita"
+    }
+  },
+  "result": {
+    "item": "dotr:baloncestita_block"
+  }
+}

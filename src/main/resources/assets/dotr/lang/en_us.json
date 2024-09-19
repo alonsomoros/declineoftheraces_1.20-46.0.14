@@ -1,0 +1,20 @@
+{
+  "itemGroup.pestañaMod": "Decline Of The Races",
+  "item.dotr.titanium_petal": "Titanium petal",
+  "item.dotr.raw_baloncestita": "Raw Baloncestita",
+  "item.dotr.baloncestita": "<< Baloncestita >>",
+
+  "block.dotr.ironed_dirt": "Ironed Dirt",
+  "block.dotr.ironed_grass": "Ironed Grass",
+  "block.dotr.ironwood_leaves": "Ironwood Leaves",
+  "block.dotr.ironwood_log": "Ironwood Log",
+  "block.dotr.baloncestita_block": "Baloncestita Block",
+  "block.dotr.baloncestita_ore": "Baloncestita Ore",
+  "block.dotr.deepslate_baloncestita_ore": "Deepslate Baloncestita Ore",
+
+  "block.dotr.chiseled_tectita": "Chiseled Tectite",
+  "block.dotr.smooth_tectita": "Smooth Tectite",
+  "block.dotr.tectita": "Tectite",
+  "block.dotr.tectita_bricks": "Tectite Bricks",
+  "block.dotr.natural_tectita": "Natural Tectite"
+}
