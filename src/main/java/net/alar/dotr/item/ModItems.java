@@ -1,6 +1,7 @@
 package net.alar.dotr.item;
 
 import net.alar.dotr.DOTR;
+import net.alar.dotr.item.custom.EigthBallItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -15,10 +16,18 @@ public class ModItems {
 
     public static final RegistryObject<Item> TITANIUM_PETAL = ITEMS.register("titanium_petal",
             () -> new Item(new Item.Properties().tab(PestagnaCreativoMod.pestagnaCreativoMod)));
+
+//    public static final RegistryObject<Item> SILVER_ROSE_GARDEN = ITEMS.register("silver_rose_garden_0",
+//            () -> new Item(new Item.Properties().tab(PestagnaCreativoMod.pestagnaCreativoMod)));
+
     public static final RegistryObject<Item> RAW_BALONCESTITA = ITEMS.register("raw_baloncestita",
             () -> new Item(new Item.Properties().tab(PestagnaCreativoMod.pestagnaCreativoMod)));
+
     public static final RegistryObject<Item> BALONCESTITA = ITEMS.register("baloncestita",
             () -> new Item(new Item.Properties().tab(PestagnaCreativoMod.pestagnaCreativoMod)));
+
+    public static final RegistryObject<Item> EIGHT_BALL = ITEMS.register("eight_ball",
+            () -> new EigthBallItem(new Item.Properties().tab(PestagnaCreativoMod.pestagnaCreativoMod).stacksTo(1)));
 
 
     public static void register(IEventBus eventBus) {
