@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "dotr:block/silver_rose_garden_bush"
+    },
+    "age=1": {
+      "model": "dotr:block/silver_rose_garden_1"
+    },
+    "age=2": {
+      "model": "dotr:block/silver_rose_garden_2"
+    },
+    "age=3": {
+      "model": "dotr:block/silver_rose_garden_3"
+    }
+  }
+}
