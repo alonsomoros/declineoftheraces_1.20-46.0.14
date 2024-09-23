@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dotr:block/tectite_slab"
+    },
+    "type=double": {
+      "model": "dotr:block/tectite"
+    },
+    "type=top": {
+      "model": "dotr:block/tectite_slab_top"
+    }
+  }
+}
