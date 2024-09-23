@@ -1,20 +1,62 @@
 {
-  "itemGroup.pestañaMod": "Decline Of The Races",
-  "item.dotr.titanium_petal": "Titanium petal",
-  "item.dotr.raw_baloncestita": "Raw Baloncestita",
+  "pestagnaCreativoMod": "Decline Of The Races",
+
+  "block.dotr.ironed_dirt": "Ironed dirt",
+  "block.dotr.ironed_grass": "Ironed grass",
+
+
+  "block.dotr.ironwood_leaves": "Ironwood leaves",
+  "block.dotr.ironwood_log": "Ironwood log",
+  "block.dotr.stripped_ironwood_log": "Stripped ironwood log",
+  "block.dotr.ironwood_wood": "Ironwood wood",
+  "block.dotr.stripped_ironwood_wood": "Stripped ironwood wood",
+
+
+  "block.dotr.ironwood_planks": "Ironwood planks",
+  "block.dotr.ironwood_slab": "Ironwood slab",
+  "block.dotr.ironwood_stairs": "Ironwood stairs",
+  "block.dotr.ironwood_fence": "Ironwood fence",
+  "block.dotr.ironwood_fence_gate": "Ironwood fence gate",
+
+
+  "block.dotr.baloncestita_ore": "Baloncestita ore",
+  "block.dotr.deepslate_baloncestita_ore": "Deepslate baloncestita ore",
+  "block.dotr.netherrack_baloncestita_ore": "Netherrack baloncestita ore",
+  "block.dotr.endstone_baloncestita_ore": "Endstone baloncestita ore",
+  "block.dotr.baloncestita_block": "Baloncestita block",
+  "item.dotr.raw_baloncestita": "Raw baloncestita",
   "item.dotr.baloncestita": "<< Baloncestita >>",
 
-  "block.dotr.ironed_dirt": "Ironed Dirt",
-  "block.dotr.ironed_grass": "Ironed Grass",
-  "block.dotr.ironwood_leaves": "Ironwood Leaves",
-  "block.dotr.ironwood_log": "Ironwood Log",
-  "block.dotr.baloncestita_block": "Baloncestita Block",
-  "block.dotr.baloncestita_ore": "Baloncestita Ore",
-  "block.dotr.deepslate_baloncestita_ore": "Deepslate Baloncestita Ore",
 
-  "block.dotr.chiseled_tectita": "Chiseled Tectite",
-  "block.dotr.smooth_tectita": "Smooth Tectite",
-  "block.dotr.tectita": "Tectite",
-  "block.dotr.tectita_bricks": "Tectite Bricks",
-  "block.dotr.natural_tectita": "Natural Tectite"
+  "block.dotr.chiseled_tectite": "Chiseled tectite",
+
+  "block.dotr.smooth_tectite": "Smooth tectite",
+  "block.dotr.smooth_tectite_stairs": "Smooth tectite stairs",
+  "block.dotr.smooth_tectite_slab": "Smooth tectite slab",
+
+  "block.dotr.tectite": "Tectite",
+  "block.dotr.tectite_stairs": "Tectite stairs",
+  "block.dotr.tectite_slab": "Tectite slab",
+  "block.dotr.tectite_wall": "Tectite wall",
+
+  "block.dotr.tectite_bricks": "Tectite bricks",
+  "block.dotr.tectite_bricks_stairs": "Tectite brick stairs",
+  "block.dotr.tectite_bricks_slab": "Tectite brick slab",
+  "block.dotr.tectite_bricks_wall": "Tectite brick wall",
+
+  "block.dotr.natural_tectite": "Natural tectite",
+  "block.dotr.natural_tectite_stairs": "Natural tectite stairs",
+  "block.dotr.natural_tectite_slab": "Natural tectite slab",
+  "block.dotr.natural_tectite_wall": "Natural tectite wall",
+
+
+  "block.dotr.baloncestita_lamp": "Baloncestita lamp",
+  "block.dotr.healing_block": "Healing block",
+  "item.dotr.eight_ball": "[ Eight ball ]",
+
+
+  "block.dotr.silver_rose_garden_bush": "Silver rose garden bush",
+  "item.dotr.titanium_petal": "Titanium petal",
+
+  "key.dotr.drink_water": "Drink water"
 }
