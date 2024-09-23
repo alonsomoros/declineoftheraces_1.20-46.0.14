@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model" : "dotr:block/baloncestita_lamp_on"
+    },
+    "lit=false": {
+      "model" : "dotr:block/baloncestita_lamp_off"
+    }
+  }
+}
