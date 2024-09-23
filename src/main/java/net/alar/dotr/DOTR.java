@@ -3,6 +3,11 @@ package net.alar.dotr;
 import com.mojang.logging.LogUtils;
 import net.alar.dotr.block.ModBlocks;
 import net.alar.dotr.item.ModItems;
+import net.alar.dotr.villager.ModVillagers;
+import net.alar.dotr.networking.ModMessages;
+import net.alar.dotr.painting.ModPaintings;
+import net.alar.dotr.world.feature.ModConfiguredFeatures;
+import net.alar.dotr.world.feature.ModPlacedFeatures;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -27,6 +32,12 @@ public class DOTR {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
+        //ModVillagers.register(modEventBus);
+        ModPaintings.register(modEventBus);
+
+        ModConfiguredFeatures.register(modEventBus);
+        ModPlacedFeatures.register(modEventBus);
+
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
@@ -38,6 +49,15 @@ public class DOTR {
         /*// Some common setup code
         LOGGER.info("HELLO FROM COMMON SETUP");
         LOGGER.info("DIRT BLOCK >> {}", ForgeRegistries.BLOCKS.getKey(Blocks.DIRT));*/
+        ModMessages.register();
+
+//        event.enqueueWork(() -> {
+//
+//            ModMessages.register();
+//
+//            ModVillagers.registerPOIs();
+//
+//        });
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
@@ -51,10 +71,8 @@ public class DOTR {
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
     public static class ClientModEvents {
         @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event) {
-//            // Some client setup code
-//            LOGGER.info("HELLO FROM CLIENT SETUP");
-//            LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+        public static void onClientSetup(FMLClientSetupEvent event) { // ItemBlockRenderTypes se cambió a un atributo en el Json del BerryBush
+
         }
     }
 }
