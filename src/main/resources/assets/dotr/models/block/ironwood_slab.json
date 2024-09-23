@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "dotr:block/ironwood_planks",
+    "side": "dotr:block/ironwood_planks",
+    "top": "dotr:block/ironwood_planks"
+  }
+}
