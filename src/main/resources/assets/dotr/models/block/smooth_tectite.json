@@ -1,6 +1,6 @@
 {
   "parent" : "block/cube_all",
   "textures" : {
-    "all" : "dotr:block/smooth_tectita"
+    "all" : "dotr:block/smooth_tectite"
   }
 }
