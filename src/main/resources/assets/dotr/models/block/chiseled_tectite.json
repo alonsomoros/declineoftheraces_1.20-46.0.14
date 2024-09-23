@@ -1,6 +1,6 @@
 {
   "parent" : "block/cube_all",
   "textures" : {
-    "all" : "dotr:block/chiseled_tectita"
+    "all" : "dotr:block/chiseled_tectite"
   }
 }
