@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "dotr:block/tectite",
+    "side": "dotr:block/tectite",
+    "top": "dotr:block/tectite"
+  }
+}
