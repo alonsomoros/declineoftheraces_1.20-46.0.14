@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dotr:block/goldforged_apophyllite_slab"
+    },
+    "type=double": {
+      "model": "dotr:block/goldforged_apophyllite"
+    },
+    "type=top": {
+      "model": "dotr:block/goldforged_apophyllite_slab_top"
+    }
+  }
+}
