@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "dotr:block/goldforged_tectite_bricks",
+    "side": "dotr:block/goldforged_tectite_bricks",
+    "top": "dotr:block/goldforged_tectite_bricks"
+  }
+}
