@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "dotr:block/apophyllite_pillar",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "dotr:block/apophyllite_pillar"
+    },
+    "axis=z": {
+      "model": "dotr:block/apophyllite_pillar",
+      "x": 90
+    }
+  }
+}
+
