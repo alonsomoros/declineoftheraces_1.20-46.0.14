@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "dotr:block/goldforged_apophyllite_pillar",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "dotr:block/goldforged_apophyllite_pillar"
+    },
+    "axis=z": {
+      "model": "dotr:block/goldforged_apophyllite_pillar",
+      "x": 90
+    }
+  }
+}
+
