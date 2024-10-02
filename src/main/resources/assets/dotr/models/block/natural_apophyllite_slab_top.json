@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "dotr:block/natural_apophyllite",
+    "side": "dotr:block/natural_apophyllite",
+    "top": "dotr:block/natural_apophyllite"
+  }
+}
