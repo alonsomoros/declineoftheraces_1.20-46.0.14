@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:tectite_wall"
+          "name": "dotr:tectite_wall"
         }
       ],
       "rolls": 1.0
