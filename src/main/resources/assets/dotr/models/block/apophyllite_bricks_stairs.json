@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "dotr:block/apophyllite_bricks",
+    "side": "dotr:block/apophyllite_bricks",
+    "top": "dotr:block/apophyllite_bricks"
+  }
+}
