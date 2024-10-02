@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dotr:block/apophyllite_slab"
+    },
+    "type=double": {
+      "model": "dotr:block/apophyllite"
+    },
+    "type=top": {
+      "model": "dotr:block/apophyllite_slab_top"
+    }
+  }
+}
