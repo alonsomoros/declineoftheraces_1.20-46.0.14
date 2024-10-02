@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "dotr:block/diamondforged_smooth_apophyllite",
+    "side": "dotr:block/diamondforged_smooth_apophyllite",
+    "top": "dotr:block/diamondforged_smooth_apophyllite"
+  }
+}
