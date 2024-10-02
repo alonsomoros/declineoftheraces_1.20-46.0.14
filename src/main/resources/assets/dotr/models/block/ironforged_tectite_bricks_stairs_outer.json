@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "dotr:block/ironforged_tectite_bricks",
+    "side": "dotr:block/ironforged_tectite_bricks",
+    "top": "dotr:block/ironforged_tectite_bricks"
+  }
+}
