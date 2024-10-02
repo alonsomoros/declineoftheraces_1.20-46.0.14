@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "dotr:block/ironforged_tectite_pillar",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "dotr:block/ironforged_tectite_pillar"
+    },
+    "axis=z": {
+      "model": "dotr:block/ironforged_tectite_pillar",
+      "x": 90
+    }
+  }
+}
+
