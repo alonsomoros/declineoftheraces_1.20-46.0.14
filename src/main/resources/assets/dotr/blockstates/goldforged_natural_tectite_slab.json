@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dotr:block/goldforged_natural_tectite_slab"
+    },
+    "type=double": {
+      "model": "dotr:block/goldforged_natural_tectite"
+    },
+    "type=top": {
+      "model": "dotr:block/goldforged_natural_tectite_slab_top"
+    }
+  }
+}
