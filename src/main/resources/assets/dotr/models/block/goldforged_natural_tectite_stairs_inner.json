@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "dotr:block/goldforged_natural_tectite",
+    "side": "dotr:block/goldforged_natural_tectite",
+    "top": "dotr:block/goldforged_natural_tectite"
+  }
+}
