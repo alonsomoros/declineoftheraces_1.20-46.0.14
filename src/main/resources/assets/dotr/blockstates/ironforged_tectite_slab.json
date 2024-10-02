@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dotr:block/ironforged_tectite_slab"
+    },
+    "type=double": {
+      "model": "dotr:block/ironforged_tectite"
+    },
+    "type=top": {
+      "model": "dotr:block/ironforged_tectite_slab_top"
+    }
+  }
+}
