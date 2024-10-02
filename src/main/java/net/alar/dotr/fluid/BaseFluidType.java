@@ -10,23 +10,27 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.client.extensions.common.IClientFluidTypeExtensions;
 import net.minecraftforge.fluids.FluidType;
 import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
 import java.util.function.Consumer;
 
+/**
+ * Basic implementation of {@link FluidType} that supports specifying still and flowing textures in the constructor.
+ *
+ * @author Choonster (<a href="https://github.com/Choonster-Minecraft-Mods/TestMod3/blob/1.19.x/LICENSE.txt">MIT License</a>)
+ *
+ * Change by: Kaupenjoe
+ * Added overlayTexture and tintColor as well. Also converts tint color into fog color
+ */
 public class BaseFluidType extends FluidType {
-
     private final ResourceLocation stillTexture;
     private final ResourceLocation flowingTexture;
     private final ResourceLocation overlayTexture;
     private final int tintColor;
     private final Vector3f fogColor;
 
-    /**
-     * Default constructor.
-     *
-     * @param properties the general properties of the fluid type
-     */
-    public BaseFluidType(ResourceLocation stillTexture, ResourceLocation flowingTexture, ResourceLocation overlayTexture, int tintColor, Vector3f fogColor, Properties properties) {
+    public BaseFluidType(final ResourceLocation stillTexture, final ResourceLocation flowingTexture, final ResourceLocation overlayTexture,
+                         final int tintColor, final Vector3f fogColor, final Properties properties) {
         super(properties);
         this.stillTexture = stillTexture;
         this.flowingTexture = flowingTexture;
@@ -43,12 +47,12 @@ public class BaseFluidType extends FluidType {
         return flowingTexture;
     }
 
-    public ResourceLocation getOverlayTexture() {
-        return overlayTexture;
-    }
-
     public int getTintColor() {
         return tintColor;
+    }
+
+    public ResourceLocation getOverlayTexture() {
+        return overlayTexture;
     }
 
     public Vector3f getFogColor() {
@@ -60,26 +64,26 @@ public class BaseFluidType extends FluidType {
         consumer.accept(new IClientFluidTypeExtensions() {
             @Override
             public ResourceLocation getStillTexture() {
-                return BaseFluidType.this.getStillTexture();
+                return stillTexture;
             }
 
             @Override
             public ResourceLocation getFlowingTexture() {
-                return BaseFluidType.this.getFlowingTexture();
+                return flowingTexture;
             }
 
             @Override
-            public ResourceLocation getOverlayTexture() {
-                return BaseFluidType.this.getOverlayTexture();
+            public @Nullable ResourceLocation getOverlayTexture() {
+                return overlayTexture;
             }
 
             @Override
             public int getTintColor() {
-                return BaseFluidType.this.getTintColor();
+                return tintColor;
             }
 
             @Override
-            public @NotNull Vector3f modifyFogColor(Camera camera, float partialTicks, ClientLevel level,
+            public @NotNull Vector3f modifyFogColor(Camera camera, float partialTick, ClientLevel level,
                                                     int renderDistance, float darkenWorldAmount, Vector3f fluidFogColor) {
                 return fogColor;
             }
@@ -87,9 +91,8 @@ public class BaseFluidType extends FluidType {
             @Override
             public void modifyFogRender(Camera camera, FogRenderer.FogMode mode, float renderDistance, float partialTick,
                                         float nearDistance, float farDistance, FogShape shape) {
-
-                RenderSystem.setShaderFogStart(1f); // Donde empieza la niebla
-                RenderSystem.setShaderFogEnd(6f);   // Donde termina la niebla
+                RenderSystem.setShaderFogStart(1f);
+                RenderSystem.setShaderFogEnd(6f); // distance when the fog starts
             }
         });
     }
