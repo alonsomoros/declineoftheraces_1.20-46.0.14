@@ -6,10 +6,10 @@
       "y": 90
     },
     "axis=y": {
-      "model": "dotr:block/tectite_pillar"
+      "model": "dotr:block/tectite_pillar_corner"
     },
     "axis=z": {
-      "model": "dotr:block/tectite_pillar",
+      "model": "dotr:block/tectite_pillar_corner",
       "x": 90
     }
   }

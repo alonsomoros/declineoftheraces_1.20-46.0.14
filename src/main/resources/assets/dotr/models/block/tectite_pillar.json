@@ -1,6 +1,4 @@
 {
-  "parent": "tectite_pillar",
-  "texture_size": [64, 64],
   "textures": {
     "0": "dotr:block/tectite_pillar",
     "particle": "dotr:block/tectite_pillar"
