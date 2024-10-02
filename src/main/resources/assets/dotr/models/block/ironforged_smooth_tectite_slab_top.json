@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "dotr:block/ironforged_smooth_tectite",
+    "side": "dotr:block/ironforged_smooth_tectite",
+    "top": "dotr:block/ironforged_smooth_tectite"
+  }
+}
