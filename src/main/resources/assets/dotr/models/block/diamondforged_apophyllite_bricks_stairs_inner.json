@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "dotr:block/diamondforged_apophyllite_bricks",
+    "side": "dotr:block/diamondforged_apophyllite_bricks",
+    "top": "dotr:block/diamondforged_apophyllite_bricks"
+  }
+}
