@@ -1,7 +1,9 @@
 package net.alar.dotr.networking;
 
 import net.alar.dotr.DOTR;
+import net.alar.dotr.networking.packet.DrinkWaterC2SPacket;
 import net.alar.dotr.networking.packet.ExampleC2SPacket;
+import net.alar.dotr.networking.packet.ThirstDataSyncS2CPacket;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.player.Player;
@@ -32,6 +34,18 @@ public class ModMessages {
                 .decoder(ExampleC2SPacket::new)
                 .encoder(ExampleC2SPacket::toBytes)
                 .consumerMainThread(ExampleC2SPacket::handle)
+                .add();
+
+        channel.messageBuilder(DrinkWaterC2SPacket.class, id(), NetworkDirection.PLAY_TO_SERVER)
+                .decoder(DrinkWaterC2SPacket::new)
+                .encoder(DrinkWaterC2SPacket::toBytes)
+                .consumerMainThread(DrinkWaterC2SPacket::handle)
+                .add();
+
+        channel.messageBuilder(ThirstDataSyncS2CPacket.class, id(), NetworkDirection.PLAY_TO_CLIENT)
+                .decoder(ThirstDataSyncS2CPacket::new)
+                .encoder(ThirstDataSyncS2CPacket::toBytes)
+                .consumerMainThread(ThirstDataSyncS2CPacket::handle)
                 .add();
     }
 
