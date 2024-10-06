@@ -11,6 +11,12 @@
     "dotr:ironwood_fence_gate",
 
     "dotr:ironed_dirt",
-    "dotr:ironed_grass"
+    "dotr:ironed_grass",
+
+    "dotr:claitine_ore",
+    "dotr:deepslate_claitine_ore",
+
+    "dotr:usthil_ore",
+    "dotr:deepslate_usthil_ore"
   ]
 }

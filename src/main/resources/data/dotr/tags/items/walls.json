@@ -1,0 +1,23 @@
+{
+  "values": [
+    "dotr:natural_tectite_wall",
+    "dotr:tectite_wall",
+    "dotr:tectite_bricks_wall",
+
+    "dotr:natural_apophylite_wall",
+    "dotr:apophylite_wall",
+    "dotr:apophylite_bricks_wall",
+
+    "dotr:ironforged_tectite_wall",
+    "dotr:ironforged_tectite_bricks_wall",
+
+    "dotr:goldforged_tectite_wall",
+    "dotr:goldforged_tectite_bricks_wall",
+
+    "dotr:diamondforged_apophylite_wall",
+    "dotr:diamondforged_apophylite_bricks_wall",
+
+    "dotr:goldforged_apophylite_wall",
+    "dotr:goldforged_apophylite_bricks_wall"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "values": [
+    "dotr:ironwood_log",
+    "dotr:stripped_ironwood_log",
+    "dotr:ironwood_wood",
+    "dotr:stripped_ironwood_wood",
+
+    "#minecraft:dark_oak_logs",
+    "#minecraft:oak_logs",
+    "#minecraft:acacia_logs",
+    "#minecraft:birch_logs",
+    "#minecraft:jungle_logs",
+    "#minecraft:spruce_logs",
+    "#minecraft:mangrove_logs"
+  ]
+}

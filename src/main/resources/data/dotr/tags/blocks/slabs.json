@@ -1,0 +1,30 @@
+{
+  "values": [
+    "dotr:tectite_slab",
+    "dotr:natural_tectite_slab",
+    "dotr:smooth_tectite_slab",
+    "dotr:tectite_bricks_slab",
+
+    "dotr:apophylite_slab",
+    "dotr:natural_apophylite_slab",
+    "dotr:smooth_apophylite_slab",
+    "dotr:apophylite_bricks_slab",
+
+    "dotr:ironforged_tectite_slab",
+    "dotr:ironforged_tectite_bricks_slab",
+    "dotr:ironforged_smooth_tectite_slab",
+
+    "dotr:goldforged_tectite_slab",
+    "dotr:goldforged_tectite_bricks_slab",
+    "dotr:goldforged_smooth_tectite_slab",
+
+    "dotr:diamondforged_apophylite_slab",
+    "dotr:diamondforged_apophylite_bricks_slab",
+    "dotr:diamondforged_smooth_apophylite_slab",
+
+    "dotr:goldforged_apophylite_slab",
+    "dotr:goldforged_apophylite_bricks_slab",
+    "dotr:goldforged_smooth_apophylite_slab"
+
+  ]
+}

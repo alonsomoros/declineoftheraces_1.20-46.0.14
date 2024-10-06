@@ -1,0 +1,29 @@
+{
+  "values": [
+    "dotr:tectite_stairs",
+    "dotr:natural_tectite_stairs",
+    "dotr:smooth_tectite_stairs",
+    "dotr:tectite_bricks_stairs",
+
+    "dotr:apophylite_stairs",
+    "dotr:natural_apophylite_stairs",
+    "dotr:smooth_apophylite_stairs",
+    "dotr:apophylite_bricks_stairs",
+
+    "dotr:ironforged_tectite_stairs",
+    "dotr:ironforged_tectite_bricks_stairs",
+    "dotr:ironforged_smooth_tectite_stairs",
+
+    "dotr:goldforged_tectite_stairs",
+    "dotr:goldforged_tectite_bricks_stairs",
+    "dotr:goldforged_smooth_tectite_stairs",
+
+    "dotr:diamondforged_apophylite_stairs",
+    "dotr:diamondforged_apophylite_bricks_stairs",
+    "dotr:diamondforged_smooth_apophylite_stairs",
+
+    "dotr:goldforged_apophylite_stairs",
+    "dotr:goldforged_apophylite_bricks_stairs",
+    "dotr:goldforged_smooth_apophylite_stairs"
+  ]
+}
