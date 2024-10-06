@@ -1,62 +1,221 @@
 {
   "pestagnaCreativoMod": "Decline Of The Races",
 
-  "block.dotr.ironed_dirt": "Ironed dirt",
-  "block.dotr.ironed_grass": "Ironed grass",
+  "block.dotr.ironed_dirt":   "Ironed dirt",
+  "block.dotr.ironed_grass":  "Ironed grass",
 
 
-  "block.dotr.ironwood_leaves": "Ironwood leaves",
-  "block.dotr.ironwood_log": "Ironwood log",
-  "block.dotr.stripped_ironwood_log": "Stripped ironwood log",
-  "block.dotr.ironwood_wood": "Ironwood wood",
-  "block.dotr.stripped_ironwood_wood": "Stripped ironwood wood",
+  "block.dotr.ironwood_leaves":         "Ironwood leaves",
+  "block.dotr.ironwood_log":            "Ironwood log",
+  "block.dotr.stripped_ironwood_log":   "Stripped ironwood log",
+  "block.dotr.ironwood_wood":           "Ironwood wood",
+  "block.dotr.stripped_ironwood_wood":  "Stripped ironwood wood",
+  "block.dotr.ironwood_sapling" :      "Ironwood sapling",
 
 
-  "block.dotr.ironwood_planks": "Ironwood planks",
-  "block.dotr.ironwood_slab": "Ironwood slab",
-  "block.dotr.ironwood_stairs": "Ironwood stairs",
-  "block.dotr.ironwood_fence": "Ironwood fence",
+
+  "block.dotr.ironwood_planks":     "Ironwood planks",
+  "block.dotr.ironwood_slab":       "Ironwood slab",
+  "block.dotr.ironwood_stairs":     "Ironwood stairs",
+  "block.dotr.ironwood_fence":      "Ironwood fence",
   "block.dotr.ironwood_fence_gate": "Ironwood fence gate",
+  "block.dotr.ironwood_door":       "Ironwood door",
+  "block.dotr.ironwood_trapdoor":   "Ironwood trapdoor",
 
 
-  "block.dotr.baloncestita_ore": "Baloncestita ore",
-  "block.dotr.deepslate_baloncestita_ore": "Deepslate baloncestita ore",
+  "block.dotr.baloncestita_ore":            "Baloncestita ore",
+  "block.dotr.deepslate_baloncestita_ore":  "Deepslate baloncestita ore",
   "block.dotr.netherrack_baloncestita_ore": "Netherrack baloncestita ore",
-  "block.dotr.endstone_baloncestita_ore": "Endstone baloncestita ore",
-  "block.dotr.baloncestita_block": "Baloncestita block",
-  "item.dotr.raw_baloncestita": "Raw baloncestita",
-  "item.dotr.baloncestita": "<< Baloncestita >>",
+  "block.dotr.endstone_baloncestita_ore":   "Endstone baloncestita ore",
+  "block.dotr.baloncestita_block":          "Baloncestita block",
+  "item.dotr.raw_baloncestita":             "Raw baloncestita",
+  "item.dotr.baloncestita":                 "<< Baloncestita >>",
+
+  "block.dotr.usthil_ore":                  "Usthil ore",
+  "block.dotr.deepslate_usthil_ore":        "Deepslate usthil ore",
+  "block.dotr.usthil_block":                "Usthil block",
+  "item.dotr.raw_usthil":                   "Raw usthil",
+  "item.dotr.usthil":                       "<< Usthil >>",
+
+  "block.dotr.claitine_ore":                "Claitine ore",
+  "block.dotr.deepslate_claitine_ore":      "Deepslate claitine ore",
+  "block.dotr.claitine_block":              "Claitine block",
+  "item.dotr.raw_claitine":                 "Raw claitine",
+  "item.dotr.claitine":                     "<< Claitine >>",
+
+  "item.dotr.diamond_shard":                "Diamond shard",
 
 
-  "block.dotr.chiseled_tectite": "Chiseled tectite",
-
-  "block.dotr.smooth_tectite": "Smooth tectite",
-  "block.dotr.smooth_tectite_stairs": "Smooth tectite stairs",
-  "block.dotr.smooth_tectite_slab": "Smooth tectite slab",
-
-  "block.dotr.tectite": "Tectite",
-  "block.dotr.tectite_stairs": "Tectite stairs",
-  "block.dotr.tectite_slab": "Tectite slab",
-  "block.dotr.tectite_wall": "Tectite wall",
-
-  "block.dotr.tectite_bricks": "Tectite bricks",
-  "block.dotr.tectite_bricks_stairs": "Tectite brick stairs",
-  "block.dotr.tectite_bricks_slab": "Tectite brick slab",
-  "block.dotr.tectite_bricks_wall": "Tectite brick wall",
-
-  "block.dotr.natural_tectite": "Natural tectite",
-  "block.dotr.natural_tectite_stairs": "Natural tectite stairs",
-  "block.dotr.natural_tectite_slab": "Natural tectite slab",
-  "block.dotr.natural_tectite_wall": "Natural tectite wall",
 
 
-  "block.dotr.baloncestita_lamp": "Baloncestita lamp",
-  "block.dotr.healing_block": "Healing block",
-  "item.dotr.eight_ball": "[ Eight ball ]",
+  "block.dotr.tectite":                                   "Tectite",
+  "block.dotr.tectite_stairs":                            "Tectite stairs",
+  "block.dotr.tectite_slab":                              "Tectite slab",
+  "block.dotr.tectite_wall":                              "Tectite wall",
+
+  "block.dotr.smooth_tectite":                            "Smooth tectite",
+  "block.dotr.smooth_tectite_stairs":                     "Smooth tectite stairs",
+  "block.dotr.smooth_tectite_slab":                       "Smooth tectite slab",
+
+  "block.dotr.tectite_bricks":                            "Tectite bricks",
+  "block.dotr.tectite_bricks_stairs":                     "Tectite bricks stairs",
+  "block.dotr.tectite_bricks_slab":                       "Tectite bricks slab",
+  "block.dotr.tectite_bricks_wall":                       "Tectite bricks wall",
+
+  "block.dotr.natural_tectite":                           "Natural tectite",
+  "block.dotr.natural_tectite_stairs":                    "Natural tectite stairs",
+  "block.dotr.natural_tectite_slab":                      "Natural tectite slab",
+  "block.dotr.natural_tectite_wall":                      "Natural tectite wall",
+
+  "block.dotr.chiseled_tectite":                          "Chiseled tectite",
+  "block.dotr.tectite_pillar":                            "Tectite pillar",
 
 
+
+  "block.dotr.apophyllite":                               "Apophyllite",
+  "block.dotr.apophyllite_stairs":                        "Apophyllite stairs",
+  "block.dotr.apophyllite_slab":                          "Apophyllite slab",
+  "block.dotr.apophyllite_wall":                          "Apophyllite wall",
+
+  "block.dotr.smooth_apophyllite":                        "Smooth apophyllite",
+  "block.dotr.smooth_apophyllite_stairs":                 "Smooth apophyllite stairs",
+  "block.dotr.smooth_apophyllite_slab":                   "Smooth apophyllite slab",
+
+  "block.dotr.apophyllite_bricks":                        "Apophyllite bricks",
+  "block.dotr.apophyllite_bricks_stairs":                 "Apophyllite bricks stairs",
+  "block.dotr.apophyllite_bricks_slab":                   "Apophyllite bricks slab",
+  "block.dotr.apophyllite_bricks_wall":                   "Apophyllite bricks wall",
+
+  "block.dotr.natural_apophyllite":                       "Natural apophyllite",
+  "block.dotr.natural_apophyllite_stairs":                "Natural apophyllite stairs",
+  "block.dotr.natural_apophyllite_slab":                  "Natural apophyllite slab",
+  "block.dotr.natural_apophyllite_wall":                  "Natural apophyllite wall",
+
+  "block.dotr.chiseled_apophyllite":                      "Chiseled apophyllite",
+  "block.dotr.apophyllite_pillar":                        "Apophyllite pillar",
+
+
+
+ "block.dotr.ironforged_tectite":                         "Ironforged tectite",
+ "block.dotr.ironforged_tectite_stairs":                  "Ironforged tectite stairs",
+ "block.dotr.ironforged_tectite_slab":                    "Ironforged tectite slab",
+ "block.dotr.ironforged_tectite_wall":                    "Ironforged tectite wall",
+
+ "block.dotr.ironforged_smooth_tectite":                  "Ironforged smooth tectite",
+ "block.dotr.ironforged_smooth_tectite_stairs":           "Ironforged smooth tectite stairs",
+ "block.dotr.ironforged_smooth_tectite_slab":             "Ironforged smooth tectite slab",
+
+ "block.dotr.ironforged_tectite_bricks":                  "Ironforged tectite bricks",
+ "block.dotr.ironforged_tectite_bricks_stairs":           "Ironforged tectite bricks stairs",
+ "block.dotr.ironforged_tectite_bricks_slab":             "Ironforged tectite bricks slab",
+ "block.dotr.ironforged_tectite_bricks_wall":             "Ironforged tectite bricks wall",
+
+ "block.dotr.ironforged_natural_tectite":                 "Ironforged natural tectite",
+ "block.dotr.ironforged_natural_tectite_stairs":          "Ironforged natural tectite stairs",
+ "block.dotr.ironforged_natural_tectite_slab":            "Ironforged natural tectite slab",
+ "block.dotr.ironforged_natural_tectite_wall":            "Ironforged natural tectite wall",
+
+ "block.dotr.ironforged_chiseled_tectite":                "Ironforged chiseled tectite",
+ "block.dotr.ironforged_tectite_pillar":                  "Ironforged tectite pillar",
+
+
+
+ "block.dotr.goldforged_tectite":                         "Goldforged tectite",
+ "block.dotr.goldforged_tectite_stairs":                  "Goldforged tectite stairs",
+ "block.dotr.goldforged_tectite_slab":                    "Goldforged tectite slab",
+ "block.dotr.goldforged_tectite_wall":                    "Goldforged tectite wall",
+
+ "block.dotr.goldforged_smooth_tectite":                  "Goldforged smooth tectite",
+ "block.dotr.goldforged_smooth_tectite_stairs":           "Goldforged smooth tectite stairs",
+ "block.dotr.goldforged_smooth_tectite_slab":             "Goldforged smooth tectite slab",
+
+ "block.dotr.goldforged_tectite_bricks":                  "Goldforged tectite bricks",
+ "block.dotr.goldforged_tectite_bricks_stairs":           "Goldforged tectite bricks stairs",
+ "block.dotr.goldforged_tectite_bricks_slab":             "Goldforged tectite bricks slab",
+ "block.dotr.goldforged_tectite_bricks_wall":             "Goldforged tectite bricks wall",
+
+ "block.dotr.goldforged_natural_tectite":                 "Goldforged natural tectite",
+ "block.dotr.goldforged_natural_tectite_stairs":          "Goldforged natural tectite stairs",
+ "block.dotr.goldforged_natural_tectite_slab":            "Goldforged natural tectite slab",
+ "block.dotr.goldforged_natural_tectite_wall":            "Goldforged natural tectite wall",
+
+ "block.dotr.goldforged_chiseled_tectite":                "Goldforged chiseled tectite",
+ "block.dotr.goldforged_tectite_pillar":                  "Goldforged tectite pillar",
+
+
+
+  "block.dotr.goldforged_apophyllite":                    "Goldforged apophyllite",
+  "block.dotr.goldforged_apophyllite_stairs":             "Goldforged apophyllite stairs",
+  "block.dotr.goldforged_apophyllite_slab":               "Goldforged apophyllite slab",
+  "block.dotr.goldforged_apophyllite_wall":               "Goldforged apophyllite wall",
+
+  "block.dotr.goldforged_smooth_apophyllite":             "Goldforged smooth apophyllite",
+  "block.dotr.goldforged_smooth_apophyllite_stairs":      "Goldforged smooth apophyllite stairs",
+  "block.dotr.goldforged_smooth_apophyllite_slab":        "Goldforged smooth apophyllite slab",
+
+  "block.dotr.goldforged_apophyllite_bricks":             "Goldforged apophyllite bricks",
+  "block.dotr.goldforged_apophyllite_bricks_stairs":      "Goldforged apophyllite bricks stairs",
+  "block.dotr.goldforged_apophyllite_bricks_slab":        "Goldforged apophyllite bricks slab",
+  "block.dotr.goldforged_apophyllite_bricks_wall":        "Goldforged apophyllite bricks wall",
+
+  "block.dotr.goldforged_natural_apophyllite":            "Goldforged natural apophyllite",
+  "block.dotr.goldforged_natural_apophyllite_stairs":     "Goldforged natural apophyllite stairs",
+  "block.dotr.goldforged_natural_apophyllite_slab":       "Goldforged natural apophyllite slab",
+  "block.dotr.goldforged_natural_apophyllite_wall":       "Goldforged natural apophyllite wall",
+
+  "block.dotr.goldforged_chiseled_apophyllite":           "Goldforged chiseled apophyllite",
+  "block.dotr.goldforged_apophyllite_pillar":             "Goldforged apophyllite pillar",
+
+
+
+  "block.dotr.diamondforged_apophyllite":                 "Diamondforged apophyllite",
+  "block.dotr.diamondforged_apophyllite_stairs":          "Diamondforged apophyllite stairs",
+  "block.dotr.diamondforged_apophyllite_slab":            "Diamondforged apophyllite slab",
+  "block.dotr.diamondforged_apophyllite_wall":            "Diamondforged apophyllite wall",
+
+  "block.dotr.diamondforged_smooth_apophyllite":          "Diamondforged smooth apophyllite",
+  "block.dotr.diamondforged_smooth_apophyllite_stairs":   "Diamondforged smooth apophyllite stairs",
+  "block.dotr.diamondforged_smooth_apophyllite_slab":     "Diamondforged smooth apophyllite slab",
+
+  "block.dotr.diamondforged_apophyllite_bricks":          "Diamondforged apophyllite bricks",
+  "block.dotr.diamondforged_apophyllite_bricks_stairs":   "Diamondforged apophyllite bricks stairs",
+  "block.dotr.diamondforged_apophyllite_bricks_slab":     "Diamondforged apophyllite bricks slab",
+  "block.dotr.diamondforged_apophyllite_bricks_wall":     "Diamondforged apophyllite bricks wall",
+
+  "block.dotr.diamondforged_natural_apophyllite":         "Diamondforged natural apophyllite",
+  "block.dotr.diamondforged_natural_apophyllite_stairs":  "Diamondforged natural apophyllite stairs",
+  "block.dotr.diamondforged_natural_apophyllite_slab":    "Diamondforged natural apophyllite slab",
+  "block.dotr.diamondforged_natural_apophyllite_wall":    "Diamondforged natural apophyllite wall",
+
+  "block.dotr.diamondforged_chiseled_apophyllite":        "Diamondforged chiseled apophyllite",
+  "block.dotr.diamondforged_apophyllite_pillar":          "Diamondforged apophyllite pillar",
+
+
+  "block.dotr.baloncestita_lamp":     "Baloncestita lamp",
+  "block.dotr.healing_block":         "Healing block",
+  "item.dotr.eight_ball":             "[ Eight ball ]",
+  "item.dotr.venomous_water_bucket":  "Venomous water bucket",
+
+
+  "item.dotr.ironwood_stick" :          "Ironwood stick",
+  "item.dotr.titanium_petal":           "Titanium petal",
   "block.dotr.silver_rose_garden_bush": "Silver rose garden bush",
-  "item.dotr.titanium_petal": "Titanium petal",
+  "item.dotr.rosegarden_key" :          "Rosegarden key",
+  "item.dotr.goliath_fur" :             "Goliath fur",
+  "item.dotr.raw_goliath_ribs" :        "Raw goliath ribs",
+  "item.dotr.roasted_goliath_ribs" :    "Roasted goliath ribs",
+  "item.dotr.shield_piercer_sword" :    "Shield piercer sword",
+  "item.dotr.shield_spider_sting" :     "Shield spider sting",
+  "item.dotr.extrahard_exoskeleton" :   "Extrahard exoskeleton",
+  "item.dotr.goliath_spawnegg" :        "Goliath spawnegg",
+  "item.dotr.grey_squirrel_spawnegg" :  "Grey squirrel spawnegg",
+  "item.dotr.son_of_metals_spawnegg" :  "Son of metals spawnegg",
+  "item.dotr.titanium_driad_spawnegg" : "Titanium driad spawnegg",
+  "item.dotr.shield_spider_spawnegg" :  "Shield spider spawnegg",
 
-  "key.dotr.drink_water": "Drink water"
+  "key.dotr.drink_water": "Drink water",
+
+  "message.dotr.no_water":    "No water nearby :(",
+  "message.dotr.drink_water": "*Slurp*"
+
 }
