@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#forge:is_plains",
+  "features": "dotr:ironwood_tree_placed",
+  "step": "vegetal_decoration"
+}
