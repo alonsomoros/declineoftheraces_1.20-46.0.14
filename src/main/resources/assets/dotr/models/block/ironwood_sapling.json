@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "dotr:block/ironwood_sapling"
+  },
+  "render_type": "cutout"
+}
