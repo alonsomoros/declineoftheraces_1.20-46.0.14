@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:ironwood_fence"
+          "name": "dotr:ironwood_fence"
         }
       ],
       "rolls": 1.0
