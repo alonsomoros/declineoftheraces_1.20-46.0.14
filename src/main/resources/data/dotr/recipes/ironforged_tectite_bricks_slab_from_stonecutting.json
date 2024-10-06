@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "dotr:ironforged_tectite_bricks"
+  },
+  "result": "dotr:ironforged_tectite_bricks_slab"
+}

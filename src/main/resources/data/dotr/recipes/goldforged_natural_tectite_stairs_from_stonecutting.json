@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "dotr:goldforged_natural_tectite"
+  },
+  "result": "dotr:goldforged_natural_tectite_stairs"
+}

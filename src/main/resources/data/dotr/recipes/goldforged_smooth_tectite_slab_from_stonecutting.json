@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "dotr:goldforged_smooth_tectite"
+  },
+  "result": "dotr:goldforged_smooth_tectite_slab"
+}

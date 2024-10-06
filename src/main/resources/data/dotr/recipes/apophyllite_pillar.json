@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "apophyllite",
+  "key": {
+    "#": {
+      "item": "dotr:natural_apophyllite_slab"
+    },
+    "X": {
+      "item": "dotr:apophyllite"
+    }
+  },
+  "pattern": [
+    "#",
+    "X",
+    "#"
+  ],
+  "result": {
+    "count": 1,
+    "item": "dotr:apophyllite_pillar"
+  }
+}

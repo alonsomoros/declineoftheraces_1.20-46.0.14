@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "dotr:apophyllite_bricks"
+  },
+  "result": "dotr:apophyllite_bricks_stairs"
+}

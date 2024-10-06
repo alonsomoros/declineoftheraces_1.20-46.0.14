@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "dotr:apophyllite"
+  },
+  "result": "dotr:apophyllite_wall"
+}

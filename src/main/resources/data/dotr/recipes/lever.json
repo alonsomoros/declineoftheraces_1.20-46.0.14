@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "dotr:rocks"
+    },
+    "X": {
+      "tag": "dotr:sticks"
+    }
+  },
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "result": {
+    "item": "minecraft:lever"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "dotr:natural_tectite"
+  },
+  "result": "dotr:natural_tectite_wall"
+}

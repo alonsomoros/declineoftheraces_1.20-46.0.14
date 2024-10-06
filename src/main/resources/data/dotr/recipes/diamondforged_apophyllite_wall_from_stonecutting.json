@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "dotr:diamondforged_natural_apophyllite"
+  },
+  "result": "dotr:diamondforged_natural_apophyllite_wall"
+}

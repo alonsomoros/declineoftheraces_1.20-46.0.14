@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tectite",
+  "key": {
+    "#": {
+      "item": "dotr:goldforged_tectite"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "item": "dotr:goldforged_tectite_bricks"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "dotr:sticks"
+    },
+    "X": {
+      "item": "minecraft:leather"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "item": "minecraft:item_frame"
+  }
+}

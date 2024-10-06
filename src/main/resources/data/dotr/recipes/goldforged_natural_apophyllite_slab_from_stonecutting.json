@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "dotr:goldforged_natural_apophyllite"
+  },
+  "result": "dotr:goldforged_natural_apophyllite_slab"
+}

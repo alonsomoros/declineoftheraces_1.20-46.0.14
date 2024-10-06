@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "dotr:ironforged_tectite"
+  },
+  "result": "dotr:ironforged_tectite_stairs"
+}

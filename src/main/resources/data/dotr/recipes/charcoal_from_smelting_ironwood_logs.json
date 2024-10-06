@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 150,
+  "experience": 0.7,
+  "group": "charcoal",
+  "ingredient": {
+    "tag": "dotr:ironwood_logs"
+  },
+  "result": "minecraft:charcoal"
+}

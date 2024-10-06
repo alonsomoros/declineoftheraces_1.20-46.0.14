@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "dotr:goldforged_smooth_apophyllite"
+  },
+  "result": "dotr:goldforged_smooth_apophyllite_stairs"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tectite",
+  "key": {
+    "#": {
+      "item": "dotr:ironforged_tectite"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "item": "dotr:ironforged_tectite_bricks"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "dotr:diamondforged_apophyllite_bricks"
+  },
+  "result": "dotr:diamondforged_apophyllite_bricks_slab"
+}

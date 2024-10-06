@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence_gate",
+  "key": {
+    "W": {
+      "item": "dotr:ironwood_planks"
+    },
+    "#": {
+      "tag": "dotr:sticks"
+    }
+  },
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "result": {
+    "item": "dotr:ironwood_fence_gate"
+  }
+}

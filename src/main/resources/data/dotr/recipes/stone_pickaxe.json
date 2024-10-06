@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "dotr:sticks"
+    },
+    "X": {
+      "tag": "dotr:rocks"
+    }
+  },
+  "pattern": [
+    "XXX",
+    " #",
+    " #"
+  ],
+  "result": {
+    "item": "minecraft:stone_pickaxe"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tectite",
+  "key": {
+    "#": {
+      "item": "minecraft:gold_nugget"
+    },
+    "X": {
+      "item": "dotr:chiseled_tectite"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "item": "dotr:goldforged_chiseled_tectite"
+  }
+}

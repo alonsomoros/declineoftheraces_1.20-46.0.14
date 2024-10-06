@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "dotr:tectite"
+    },
+    "B": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "pattern": [
+    " B ",
+    "###"
+  ],
+  "result": {
+    "item": "minecraft:brewing_stand"
+  }
+}

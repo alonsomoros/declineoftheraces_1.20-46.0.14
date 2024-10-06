@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "dotr:natural_apophyllite"
+  },
+  "result": "dotr:natural_apophyllite_slab"
+}

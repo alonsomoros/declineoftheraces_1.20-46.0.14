@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "apophyllite",
+  "key": {
+    "#": {
+      "item": "dotr:diamondforged_apophyllite"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "item": "dotr:diamondforged_apophyllite_bricks"
+  }
+}

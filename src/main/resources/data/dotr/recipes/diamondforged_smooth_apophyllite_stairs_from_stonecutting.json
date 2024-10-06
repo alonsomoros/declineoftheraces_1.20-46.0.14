@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "dotr:diamondforged_smooth_apophyllite"
+  },
+  "result": "dotr:diamondforged_smooth_apophyllite_stairs"
+}
