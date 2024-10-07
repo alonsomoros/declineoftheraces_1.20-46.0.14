@@ -11,10 +11,8 @@ import net.alar.dotr.painting.ModPaintings;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.CreativeModeTabEvent;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -22,7 +20,6 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.registries.RegistryObject;
 import org.slf4j.Logger;
 //import software.bernie.geckolib.GeckoLib;
 
@@ -36,6 +33,8 @@ public class DOTR {
 
     public DOTR() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        PestagnaCreativoMod.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
@@ -61,8 +60,8 @@ public class DOTR {
         event.enqueueWork(ModMessages::register);
     }
 
-    private void addCreative(CreativeModeTabEvent.BuildContents event) {
-        if (event.getTab() == PestagnaCreativoMod.MOD_TAB) {
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if (event.getTab() == PestagnaCreativoMod.DOTR_TAB.get()) {
             event.accept(ModItems.TITANIUM_PETAL);
             event.accept(ModItems.RAW_USTHIL);
             event.accept(ModItems.USTHIL);
@@ -70,6 +69,12 @@ public class DOTR {
             event.accept(ModItems.CLAITINE);
             event.accept(ModItems.EIGHT_BALL);
             event.accept(ModItems.VENOMOUS_WATER_BUCKET);
+            event.accept(ModItems.SHIELD_SPIDER_STING);
+            event.accept(ModItems.EXTRAHARD_EXOSKELETON);
+            event.accept(ModItems.GOLIATH_FUR);
+            event.accept(ModItems.RAW_GOLIATH_RIBS);
+            event.accept(ModItems.ROASTED_GOLIATH_RIBS);
+            event.accept(ModItems.SHIELD_PIERCER_SWORD);
             event.accept(ModBlocks.SILVER_ROSE_GARDEN_BUSH);
             event.accept(ModBlocks.IRONWOOD_SAPLING);
             event.accept(ModBlocks.IRONWOOD_LEAVES);
@@ -175,7 +180,7 @@ public class DOTR {
 
         }
 
-        if (event.getTab() == CreativeModeTabs.INGREDIENTS) {
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.CLAITINE);
             event.accept(ModItems.RAW_CLAITINE);
             event.accept(ModItems.USTHIL);
@@ -183,21 +188,23 @@ public class DOTR {
             event.accept(ModItems.DIAMOND_SHARD);
         }
 
-        if (event.getTab() == CreativeModeTabs.FOOD_AND_DRINKS) {
+        if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.RAW_GOLIATH_RIBS);
             event.accept(ModItems.ROASTED_GOLIATH_RIBS);
         }
 
-        if (event.getTab() == CreativeModeTabs.COMBAT) {
+        if (event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(ModItems.SHIELD_PIERCER_SWORD);
         }
 
-        if (event.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
+        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(ModBlocks.IRONED_DIRT);
             event.accept(ModBlocks.IRONED_GRASS);
+            event.accept(ModBlocks.SILVER_ROSE_GARDEN_BUSH);
+            event.accept(ModBlocks.IRONWOOD_SAPLING);
         }
 
-        if (event.getTab() == CreativeModeTabs.BUILDING_BLOCKS) {
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 
             event.accept(ModBlocks.IRONED_DIRT);
             event.accept(ModBlocks.IRONED_GRASS);
