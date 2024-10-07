@@ -1,6 +1,0 @@
-{
-  "parent" : "block/cube_all",
-  "textures" : {
-    "all" : "dotr:block/endstone_baloncestita_ore"
-  }
-}
