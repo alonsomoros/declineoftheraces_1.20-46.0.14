@@ -32,8 +32,8 @@ public class ExampleC2SPacket { // Client -> Server
             ServerPlayer player = context.getSender();
             ServerLevel world = player.getLevel();
 
-            EntityType.COW.spawn(world, null, null,
-                    player.blockPosition(), MobSpawnType.COMMAND, true, false);
+//            EntityType.COW.spawn(world, null, null,
+//                    player.blockPosition(), MobSpawnType.COMMAND, true, false);
         });
 
         return true;
