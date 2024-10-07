@@ -42,7 +42,7 @@ public class ClientEvents {
         @SubscribeEvent
         public static void registerGuiOverlays(RegisterGuiOverlaysEvent event) {
             // Register key bindings here
-            event.registerAboveAll("thirst", ThirstHudOverlay.HUD_THIRST);
+//            event.registerAboveAll("thirst", ThirstHudOverlay.HUD_THIRST);
         }
 
     }

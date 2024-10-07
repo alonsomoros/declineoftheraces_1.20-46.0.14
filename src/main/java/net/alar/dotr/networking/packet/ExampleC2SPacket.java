@@ -30,7 +30,7 @@ public class ExampleC2SPacket { // Client -> Server
         context.enqueueWork(() -> {
             // Here we are in the server thread
             ServerPlayer player = context.getSender();
-            ServerLevel world = player.getLevel();
+            ServerLevel world = player.getServer().getLevel(player.getCommandSenderWorld().dimension());
 
 //            EntityType.COW.spawn(world, null, null,
 //                    player.blockPosition(), MobSpawnType.COMMAND, true, false);

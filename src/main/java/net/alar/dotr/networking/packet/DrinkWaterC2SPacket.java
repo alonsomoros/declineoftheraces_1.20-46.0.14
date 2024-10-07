@@ -40,7 +40,7 @@ public class DrinkWaterC2SPacket { // Client -> Server
         NetworkEvent.Context context = supplier.get();
         context.enqueueWork(() -> {
             ServerPlayer player = context.getSender();
-            ServerLevel level = player.getLevel();
+            ServerLevel level = player.getServer().getLevel(player.getCommandSenderWorld().dimension());
 
             if (hasWaterAroundThere(player, level, 2)) {
                 // Notify the player that he drank water
