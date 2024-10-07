@@ -1,5 +1,5 @@
 {
-  "pestagnaCreativoMod": "Decline Of The Races",
+  "itemGroup.pestagnaCreativoMod": "Decline Of The Races",
 
   "block.dotr.ironed_dirt":   "Ironed dirt",
   "block.dotr.ironed_grass":  "Ironed grass",
@@ -21,15 +21,6 @@
   "block.dotr.ironwood_fence_gate": "Ironwood fence gate",
   "block.dotr.ironwood_door":       "Ironwood door",
   "block.dotr.ironwood_trapdoor":   "Ironwood trapdoor",
-
-
-  "block.dotr.baloncestita_ore":            "Baloncestita ore",
-  "block.dotr.deepslate_baloncestita_ore":  "Deepslate baloncestita ore",
-  "block.dotr.netherrack_baloncestita_ore": "Netherrack baloncestita ore",
-  "block.dotr.endstone_baloncestita_ore":   "Endstone baloncestita ore",
-  "block.dotr.baloncestita_block":          "Baloncestita block",
-  "item.dotr.raw_baloncestita":             "Raw baloncestita",
-  "item.dotr.baloncestita":                 "<< Baloncestita >>",
 
   "block.dotr.usthil_ore":                  "Usthil ore",
   "block.dotr.deepslate_usthil_ore":        "Deepslate usthil ore",
@@ -95,7 +86,6 @@
   "block.dotr.apophyllite_pillar":                        "Apophyllite pillar",
 
 
-
  "block.dotr.ironforged_tectite":                         "Ironforged tectite",
  "block.dotr.ironforged_tectite_stairs":                  "Ironforged tectite stairs",
  "block.dotr.ironforged_tectite_slab":                    "Ironforged tectite slab",
@@ -110,14 +100,8 @@
  "block.dotr.ironforged_tectite_bricks_slab":             "Ironforged tectite bricks slab",
  "block.dotr.ironforged_tectite_bricks_wall":             "Ironforged tectite bricks wall",
 
- "block.dotr.ironforged_natural_tectite":                 "Ironforged natural tectite",
- "block.dotr.ironforged_natural_tectite_stairs":          "Ironforged natural tectite stairs",
- "block.dotr.ironforged_natural_tectite_slab":            "Ironforged natural tectite slab",
- "block.dotr.ironforged_natural_tectite_wall":            "Ironforged natural tectite wall",
-
  "block.dotr.ironforged_chiseled_tectite":                "Ironforged chiseled tectite",
  "block.dotr.ironforged_tectite_pillar":                  "Ironforged tectite pillar",
-
 
 
  "block.dotr.goldforged_tectite":                         "Goldforged tectite",
@@ -134,15 +118,8 @@
  "block.dotr.goldforged_tectite_bricks_slab":             "Goldforged tectite bricks slab",
  "block.dotr.goldforged_tectite_bricks_wall":             "Goldforged tectite bricks wall",
 
- "block.dotr.goldforged_natural_tectite":                 "Goldforged natural tectite",
- "block.dotr.goldforged_natural_tectite_stairs":          "Goldforged natural tectite stairs",
- "block.dotr.goldforged_natural_tectite_slab":            "Goldforged natural tectite slab",
- "block.dotr.goldforged_natural_tectite_wall":            "Goldforged natural tectite wall",
-
  "block.dotr.goldforged_chiseled_tectite":                "Goldforged chiseled tectite",
  "block.dotr.goldforged_tectite_pillar":                  "Goldforged tectite pillar",
-
-
 
   "block.dotr.goldforged_apophyllite":                    "Goldforged apophyllite",
   "block.dotr.goldforged_apophyllite_stairs":             "Goldforged apophyllite stairs",
@@ -158,14 +135,8 @@
   "block.dotr.goldforged_apophyllite_bricks_slab":        "Goldforged apophyllite bricks slab",
   "block.dotr.goldforged_apophyllite_bricks_wall":        "Goldforged apophyllite bricks wall",
 
-  "block.dotr.goldforged_natural_apophyllite":            "Goldforged natural apophyllite",
-  "block.dotr.goldforged_natural_apophyllite_stairs":     "Goldforged natural apophyllite stairs",
-  "block.dotr.goldforged_natural_apophyllite_slab":       "Goldforged natural apophyllite slab",
-  "block.dotr.goldforged_natural_apophyllite_wall":       "Goldforged natural apophyllite wall",
-
   "block.dotr.goldforged_chiseled_apophyllite":           "Goldforged chiseled apophyllite",
   "block.dotr.goldforged_apophyllite_pillar":             "Goldforged apophyllite pillar",
-
 
 
   "block.dotr.diamondforged_apophyllite":                 "Diamondforged apophyllite",
@@ -181,11 +152,6 @@
   "block.dotr.diamondforged_apophyllite_bricks_stairs":   "Diamondforged apophyllite bricks stairs",
   "block.dotr.diamondforged_apophyllite_bricks_slab":     "Diamondforged apophyllite bricks slab",
   "block.dotr.diamondforged_apophyllite_bricks_wall":     "Diamondforged apophyllite bricks wall",
-
-  "block.dotr.diamondforged_natural_apophyllite":         "Diamondforged natural apophyllite",
-  "block.dotr.diamondforged_natural_apophyllite_stairs":  "Diamondforged natural apophyllite stairs",
-  "block.dotr.diamondforged_natural_apophyllite_slab":    "Diamondforged natural apophyllite slab",
-  "block.dotr.diamondforged_natural_apophyllite_wall":    "Diamondforged natural apophyllite wall",
 
   "block.dotr.diamondforged_chiseled_apophyllite":        "Diamondforged chiseled apophyllite",
   "block.dotr.diamondforged_apophyllite_pillar":          "Diamondforged apophyllite pillar",
