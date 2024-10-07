@@ -3,13 +3,14 @@ package net.alar.dotr.item;
 import net.alar.dotr.DOTR;
 import net.alar.dotr.fluid.ModFluids;
 import net.alar.dotr.item.custom.EigthBallItem;
-import net.minecraft.world.item.BucketItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+
+import java.util.Collections;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, DOTR.MOD_ID);
@@ -30,19 +31,27 @@ public class ModItems {
 
         // Usthil
 
-    public static final RegistryObject<Item> RAW_USTHIL = ITEMS.register("raw_usthil",
-            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_USTHIL =
+            ITEMS.register("raw_usthil",
+            () -> new Item(new Item.Properties())
+            );
 
-    public static final RegistryObject<Item> USTHIL = ITEMS.register("usthil",
-            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> USTHIL =
+            ITEMS.register("usthil",
+            () -> new Item(new Item.Properties())
+            );
 
         // Claitine
 
-    public static final RegistryObject<Item> RAW_CLAITINE = ITEMS.register("raw_claitine",
-            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_CLAITINE =
+            ITEMS.register("raw_claitine",
+            () -> new Item(new Item.Properties())
+            );
 
-    public static final RegistryObject<Item> CLAITINE = ITEMS.register("claitine",
-            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CLAITINE =
+            ITEMS.register("claitine",
+            () -> new Item(new Item.Properties())
+            );
 
 
     // Tools
