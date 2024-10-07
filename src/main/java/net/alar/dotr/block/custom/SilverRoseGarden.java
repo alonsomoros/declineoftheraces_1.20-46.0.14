@@ -79,7 +79,7 @@ public class SilverRoseGarden extends BushBlock {
                 double d0 = Math.abs(entity.getX() - entity.xOld);
                 double d1 = Math.abs(entity.getZ() - entity.zOld);
                 if (d0 >= (double)0.003F || d1 >= (double)0.003F) {
-                    entity.hurt(DamageSource.SWEET_BERRY_BUSH, 1.0F);
+//                    entity.hurt(DamageSource.SWEET_BERRY_BUSH, 1.0F);
                 }
             }
 
