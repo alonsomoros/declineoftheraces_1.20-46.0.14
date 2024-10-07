@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "dotr:ironwood_tree_checked",
+    "features": [
+      {
+        "chance": 0.5,
+        "feature": "dotr:ironwood_tree_checked"
+      }
+    ]
+  }
+}

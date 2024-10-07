@@ -1,0 +1,9 @@
+// 1.19.3	2024-10-07T00:16:56.9581699	Registries
+9baa3028c0420e95cb829c9ab3ac20ccd602d7e3 data/dotr/worldgen/configured_feature/ironwood_tree.json
+fb5aaf0a8ab211819f8e50c64f7ca4cbb8890cf3 data/dotr/worldgen/configured_feature/ironwood_tree_spawn.json
+602968dc74464ccc369f9dc3d63ae1fa29236eab data/dotr/worldgen/configured_feature/overworld_claitine_ore.json
+edf3bab48878376dfee30fbcd1c3767fe97a5578 data/dotr/worldgen/configured_feature/overworld_usthil_ore.json
+d0389226e59d7b7ea27564086de0ce6e52e695af data/dotr/worldgen/placed_feature/claitine_ore_placed.json
+5337a770ccf82efd687ba6d50544488e52961e28 data/dotr/worldgen/placed_feature/ironwood_tree_checked.json
+3baf7e7d50ee83d0f236ac24262488551d7fc06c data/dotr/worldgen/placed_feature/ironwood_tree_placed.json
+ae647a60cba5a80850efb71cce8e77bcfb9ca45c data/dotr/worldgen/placed_feature/usthil_ore_placed.json
