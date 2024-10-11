@@ -3,6 +3,7 @@ package net.alar.dotr.item;
 import net.alar.dotr.DOTR;
 import net.alar.dotr.fluid.ModFluids;
 import net.alar.dotr.item.custom.EigthBallItem;
+import net.alar.dotr.item.custom.ModFoods;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -72,10 +73,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> RAW_GOLIATH_RIBS = ITEMS.register("raw_goliath_ribs",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().food(ModFoods.RAW_GOLIATH_RIBS)));
 
     public static final RegistryObject<Item> ROASTED_GOLIATH_RIBS = ITEMS.register("roasted_goliath_ribs",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().food(ModFoods.ROASTED_GOLIATH_RIBS)));
 
     public static final RegistryObject<Item> SHIELD_PIERCER_SWORD = ITEMS.register("shield_piercer_sword",
             () -> new Item(new Item.Properties().stacksTo(1)));

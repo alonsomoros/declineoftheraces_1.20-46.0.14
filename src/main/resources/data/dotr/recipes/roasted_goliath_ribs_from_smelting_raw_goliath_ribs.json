@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 110,
+  "experience": 0.7,
+  "group": "Food",
+  "ingredient": {
+    "item": "dotr:raw_goliath_ribs"
+  },
+  "result": "dotr:roasted_goliath_ribs"
+}
