@@ -39,8 +39,8 @@ public class ModBlocks {
 
     // Madera
 
-    public static final RegistryObject<LeavesBlock> IRONWOOD_LEAVES = registerBlock("ironwood_leaves",
-            () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)
+    public static final RegistryObject<Block> IRONWOOD_LEAVES = registerBlock("ironwood_leaves",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)
                     .noOcclusion().requiresCorrectToolForDrops()) {
                 @Override
                 public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
